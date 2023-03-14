@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch-framework-model" />
+        <module name="ch-service-manage-cms" />
+        <module name="ch-govern-gateway" />
+        <module name="ch-service-api" />
+        <module name="ch-service-manage-cms-client" />
+        <module name="ch-framework-common" />
+        <module name="ch-service-search" />
+        <module name="ch-govern-center" />
+        <module name="ch-service-ucenter-auth" />
+        <module name="ch-service-ucenter" />
+        <module name="ch-service-manage-course" />
+        <module name="ch-service-base-filesystem" />
+        <module name="ch-framework-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch-framework-common" target="11" />
+      <module name="ch-framework-model" target="11" />
+      <module name="ch-framework-parent" target="11" />
+      <module name="ch-framework-parent (1)" target="11" />
+      <module name="ch-framework-parent (2)" target="11" />
+      <module name="ch-framework-utils" target="11" />
+      <module name="ch-govern-center" target="11" />
+      <module name="ch-govern-gateway" target="11" />
+      <module name="ch-service-api" target="11" />
+      <module name="ch-service-base-filesystem" target="11" />
+      <module name="ch-service-manage-cms" target="11" />
+      <module name="ch-service-manage-cms-client" target="11" />
+      <module name="ch-service-manage-course" target="11" />
+      <module name="ch-service-search" target="11" />
+      <module name="ch-service-ucenter" target="11" />
+      <module name="ch-service-ucenter-auth" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ch-framework-common" options="-parameters" />
+      <module name="ch-framework-model" options="-parameters" />
+      <module name="ch-framework-parent" options="" />
+      <module name="ch-framework-utils" options="-parameters" />
+      <module name="ch-govern-center" options="-parameters" />
+      <module name="ch-govern-gateway" options="-parameters" />
+      <module name="ch-service-api" options="-parameters" />
+      <module name="ch-service-base-filesystem" options="-parameters" />
+      <module name="ch-service-manage-cms" options="-parameters" />
+      <module name="ch-service-manage-cms-client" options="-parameters" />
+      <module name="ch-service-manage-course" options="-parameters" />
+      <module name="ch-service-search" options="-parameters" />
+      <module name="ch-service-ucenter" options="-parameters" />
+      <module name="ch-service-ucenter-auth" options="-parameters" />
+    </option>
+  </component>
+</project>

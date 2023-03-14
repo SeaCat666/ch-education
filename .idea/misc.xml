@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ch-framework-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-framework-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-framework-model/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-framework-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-service-manage-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-service-manage-course/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-service-base-filesystem/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-govern-center/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-service-search/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-service-ucenter-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-service-ucenter/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-govern-gateway/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ch-framework-parent/ch-service-manage-cms-client/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

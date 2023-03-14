@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ch-education.iml" filepath="$PROJECT_DIR$/.idea/ch-education.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-framework-common/ch-framework-common.iml" filepath="$PROJECT_DIR$/ch-framework-common/ch-framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-framework-model/ch-framework-model.iml" filepath="$PROJECT_DIR$/ch-framework-model/ch-framework-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-framework-parent/ch-framework-parent.iml" filepath="$PROJECT_DIR$/ch-framework-parent/ch-framework-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-framework-utils/ch-framework-utils.iml" filepath="$PROJECT_DIR$/ch-framework-utils/ch-framework-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-govern-center/ch-govern-center.iml" filepath="$PROJECT_DIR$/ch-govern-center/ch-govern-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-govern-gateway/ch-govern-gateway.iml" filepath="$PROJECT_DIR$/ch-govern-gateway/ch-govern-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-service-api/ch-service-api.iml" filepath="$PROJECT_DIR$/ch-service-api/ch-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-service-base-filesystem/ch-service-base-filesystem.iml" filepath="$PROJECT_DIR$/ch-service-base-filesystem/ch-service-base-filesystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-service-manage-cms/ch-service-manage-cms.iml" filepath="$PROJECT_DIR$/ch-service-manage-cms/ch-service-manage-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-service-manage-cms-client/ch-service-manage-cms-client.iml" filepath="$PROJECT_DIR$/ch-service-manage-cms-client/ch-service-manage-cms-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-service-manage-course/ch-service-manage-course.iml" filepath="$PROJECT_DIR$/ch-service-manage-course/ch-service-manage-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-service-search/ch-service-search.iml" filepath="$PROJECT_DIR$/ch-service-search/ch-service-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-service-ucenter/ch-service-ucenter.iml" filepath="$PROJECT_DIR$/ch-service-ucenter/ch-service-ucenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch-service-ucenter-auth/ch-service-ucenter-auth.iml" filepath="$PROJECT_DIR$/ch-service-ucenter-auth/ch-service-ucenter-auth.iml" />
+    </modules>
+  </component>
+</project>

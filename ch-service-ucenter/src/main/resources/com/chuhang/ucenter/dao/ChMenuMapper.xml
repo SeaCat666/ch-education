@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.chuhang.ucenter.dao.ChMenuMapper">
+
+    <select id="selectPermissionByUserName" resultType="com.chuhang.framework.domain.ucenter.ChMenu" parameterType="String">
+        SELECT
+        -- 	u.id uid,
+        -- 	u.username,
+        -- 	u.`password`,
+        --
+        -- 	ur.role_id rid,
+        -- 	ur.creator,
+        -- 	ur.create_time,
+        --
+        -- 	r.role_name,
+        -- 	r.role_code,
+        --
+        -- 	p.id pid,
+        -- 	p.menu_id,
+        -- 	p.create_time,
+        m.id,
+        m.p_id pId,
+        m.`code`,
+        m.menu_name menuName,
+        m.is_menu isMenu,
+        m.`level`,
+        m.url,
+        m.icon,
+        m.create_time createTime,
+        m.sort,
+        m.`status`,
+        m.update_time updateTime
+        FROM
+            ch_user u,
+            ch_user_role ur,
+            ch_role r,
+            ch_permission p,
+            ch_menu m
+        WHERE
+            u.id = ur.user_id
+          AND ur.role_id = r.id
+          AND r.id = p.role_id
+          AND p.menu_id=m.id
+          AND u.username = #{username}
+    </select>
+</mapper>

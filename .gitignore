@@ -1,0 +1,14 @@
+# Project exclude paths
+/ch-framework-common/target/
+/ch-framework-model/target/
+/ch-framework-utils/target/
+/ch-govern-center/target/
+/ch-govern-gateway/target/
+/ch-service-api/target/
+/ch-service-base-filesystem/target/
+/ch-service-manage-cms/target/
+/ch-service-manage-cms-client/target/
+/ch-service-manage-course/target/
+/ch-service-search/target/
+/ch-service-ucenter/target/
+/ch-service-ucenter-auth/target/
